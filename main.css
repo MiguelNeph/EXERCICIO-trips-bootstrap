@@ -1,5 +1,5 @@
 /* 767 px = tamaño pantalla smartphone*/
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1023px){
     .container{
         max-width: 90%;
     }
@@ -12,13 +12,13 @@
     
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 767px){
     .container{
         max-width: 90%;
     }
     .row {
         display: grid;
-        grid-template-columns:repeat(3, 33%);
+        grid-template-columns:repeat(1, 100%);
         column-gap: 5%;
         
     }
